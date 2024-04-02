@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Wahastore Wiki</title>
+    <link rel="shortcut icon" href="Image/Main/ЛогоИконка.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="lightbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--Header-->
+<div class="my-header">
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="nav-link">
+                        <a href="index.html"><h1>WAHASTORE</h1></a>
+                </div>
+                <div class="header-right">
+                    <nav class="header-nav">
+                        <ul class="nav" id="nav">   
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Империум человечества
+                                    <svg class="sv-nav" width="14" height="10" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
+                                        <path  d="M4.99997 5.70028C4.82075 5.70028 4.64155 5.63185 4.50492
+                                    5.49528L0.205141 1.19546C-0.0683805 0.921938 -0.0683805 0.478469
+                                    0.205141 0.205058C0.478552 -0.0683528 0.921933 -0.0683528 1.19548
+                                    0.205058L4.99997 4.00978L8.80449 0.205191C9.07801 -0.0682199 9.52135
+                                    -0.0682199 9.79474 0.205191C10.0684 0.478602 10.0684 0.922071 9.79474
+                                    1.19559L5.49503 5.49541C5.35832 5.63201 5.17913 5.70028 4.99997 5.70028Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </a>
+                                <ul class="sub-nav">
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Адептус Кустодес</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Адептус Астартес</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Адепта Сороритас</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Имперская Гвардия</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Инквизиция</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Адептус Механикус</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Хаоситы и ксеносы
+                                    <svg class="sv-nav" width="14" height="10" viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
+                                        <path  d="M4.99997 5.70028C4.82075 5.70028 4.64155 5.63185 4.50492
+                                    5.49528L0.205141 1.19546C-0.0683805 0.921938 -0.0683805 0.478469
+                                    0.205141 0.205058C0.478552 -0.0683528 0.921933 -0.0683528 1.19548
+                                    0.205058L4.99997 4.00978L8.80449 0.205191C9.07801 -0.0682199 9.52135
+                                    -0.0682199 9.79474 0.205191C10.0684 0.478602 10.0684 0.922071 9.79474
+                                    1.19559L5.49503 5.49541C5.35832 5.63201 5.17913 5.70028 4.99997 5.70028Z" fill="#FFFFFF"/>
+                                    </svg>
+                                </a>
+                                <ul class="sub-nav">
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Хаос</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Космодесант Хаоса</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Эльдар</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Тёмные эльдар</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Орки</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Империя Тау</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Некроны</a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="#" class="sub-link">Тираниды</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-photo" href="#" onclick="focusMailingBox(event)">Подписаться</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger-item">Menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<!--Img-Slide + text-->
+<div class="intro">
+    <div class="wrapper">
+        <div class="slider-container">
+            <div class="slider-track">
+                <div class="slider-item">
+                    <img class="reviews-img" src="Image/SlideMain/Фото1.jpeg" alt="">
+                </div>
+                <div class="slider-item">
+                    <img class="reviews-img" src="Image/SlideMain/Фото2.jpg" alt="">
+                </div>
+                <div class="slider-item">
+                    <img class="reviews-img" src="Image/SlideMain/Фото3.jpg" alt="">
+                </div>
+                <div class="slider-item">
+                    <img class="reviews-img" src="Image/SlideMain/Фото4.jpg" alt="">
+                </div>
+                <div class="slider-item">
+                    <img class="reviews-img" src="Image/SlideMain/Фото5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="intro-inner">
+            <h1 class="intro-title">Приветствуем вас в сообществе
+                <span class="slide-titleTwo-color">Wahastore wiki </span></h1>
+            <div class="intro-slide">
+                <div class="slide-form">
+                    <h2 class="slide-title">Понятное и красочное предоставление информации о вселенной <span class="slide-titleTwo-color">Warhammer 40k.</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--One block-->
+<div class="one-block">
+    <div class="container">
+        <div class="graphics">
+            <p>
+                В МРАЧНОЙ ТЬМЕ ДАЛЁКОГО БУДУЩЕГО ЕСТЬ ТОЛЬКО ВОЙНА…
+            </p>
+        </div>
+        <div class="graphics-text">
+            <p class="one-text" style="margin-bottom: 50px;">
+                Это 41 тысячелетие. Вот уже более ста веков Император недвижимо восседает на Золотом Троне Терры. 
+                Он Повелитель Человечества и правит миллионом миров благодаря мощи своих неисчислимых армий. 
+                Он — гниющий полутруп, чьи незримые муки продлеваются загадочными устройствами Тёмной Эры Технологий. 
+                Он — разлагающийся властелин Империума, которому каждый день приносят в жертву тысячу душ. 
+                На крови и плоти человеческой стоит сам Империум.
+            </p>
+            <p class="tow-text">
+                Даже в своём нынешнем состоянии, Император продолжает свою вечную бдительность. 
+                Могучие флоты пересекают кишащие демонами миазмы варпа, единственный путь между далёкими звёздами, их путь освещён светом Астрономикона, 
+                психическим проявлением воли Императора. Огромные армии сражаются во имя Его на бесчисленных мирах. 
+                Величайшие среди Его солдат — Адептус Астартес, космические десантники, супер-воины, созданные с помощью биоинженерии. 
+                Их братья по оружию — это полки Имперской Гвардии и бесчисленные планетарные силы обороны, всевидящая Инквизиция и техножрецы Адептус Механикус. 
+                Здесь названы лишь немногие. Но даже всего этого множества едва хватает, чтобы сдерживать вездесущие угрозы для человечества: пришельцев, еретиков, мутантов и гораздо, гораздо худшие вещи.
+            </p>
+        </div>
+    </div>
+</div>
+<!--Two block-->
+<div class="two-block">
+    <div class="container">
+        <div class="examples">
+            <p class="examples-indent">Фракции в Warhammer 40,000:</p>
+        </div>
+        <div class="objects-design">
+            <div class="box" data-aos="fade-up">
+                <a href="Image/Main/Custodes.jpg" data-title="Custodes" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Custodes.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Адептус Кустодес</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Space_marine.jpg" data-title="Space_marine" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Space_marine.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Адептус Астартес</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <a href="Image/Main/Saroritas.webp" data-title="Saroritas" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Saroritas.webp" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Адептус Сороритас</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Guard.webp" data-title="Guard" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Guard.webp" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Имперская Гвардия</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <a href="Image/Main/Incvisition.jpeg" data-title="Incvisition" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Incvisition.jpeg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Инквизиция</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Mechanicus.jpg" data-title="Mechanicus" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Mechanicus.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Адептус Механикус</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <a href="Image/Main/Chaos.jpg" data-title="Chaos" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Chaos.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Хаос</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Chaos_marine.webp" data-title="Chaos_marine" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Chaos_marine.webp" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Космодесант Хаоса</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Aeldari.jpg" data-title="Aeldari" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Aeldari.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Эльдар</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Black.jpg" data-title="Black" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Black.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Тёмные эльдар</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Orks.jpg" data-title="Orks" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Orks.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Орки</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Tau.jpg" data-title="Tau" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Tau.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Империя</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Necrons.jpg" data-title="Necrons" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Necrons.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Некроны</a>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+                <a href="Image/Main/Tiranids.jpg" data-title="Tiranids" data-lightbox="img-box">
+                    <img class="box-img" src="Image/Main/Tiranids.jpg" alt="">
+                </a>
+                <div class="nav-link">
+                    <a href="index.html">Тираниды</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Three block-->
+<div class="three-block">
+    <div class="container">
+        <div class="views-graphics">
+            <p>
+                Карта Галактики Warhammer 40,000:
+            </p>
+        </div>
+        <div class="views-boxes">
+            <div class="views-box">
+                <div class="views-img">
+                        <img class="views-img-size" src="Image/Main/Warhammer_Imperium.webp" alt="">
+                </div>
+            </div>
+                <div class="graphics-text">
+                    <p>
+                        Вот уже более ста веков Император неподвижно восседает на Золотом Троне Терры. 
+                        По воле богов он является Повелителем Человечества и правит миллионом миров благодаря мощи своих неисчислимых армий. 
+                        Он — гниющий полутруп, чьи незримые муки продлеваются загадочными устройствами Тёмной Эры Технологий. 
+                        Он — разлагающийся властелин Империума, которому каждый день приносят в жертву тысячу душ, чью кровь он пьёт и 
+                        поедает плоть. На крови и плоти человеческой стоит сам Империум.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Mailing-->
+<div class="mailing">
+    <div class="container">
+        <div class="mailing-box" data-aos="fade-up">
+            <div class="mailing-box-one" id="mailingBox">
+                <div class="mailing-title">
+                    <p>
+                        Подпишись на рассылку и будь в курсе <span class="slide-titleTwo-color">нововвдений в кодексе Warhammer 40k</span>
+                    </p>
+                </div>
+                <div class="mailing-sms">
+                    <form class="mailing-form">
+                        <div class="mailing-padding">
+                            <input class="mailing-input" type="text" autocomplete="off" required placeholder="Ваше имя">
+                        </div>
+                        <div class="mailing-padding">
+                            <input class="mailing-input" type="tel" autocomplete="off" placeholder="Ваш телефон">
+                        </div>
+                        <div class="mailing-padding">
+                            <input class="mailing-input" type="email" autocomplete="off" required placeholder="Ваш E-mail">
+                        </div>
+                        <button class="mailing-btn">
+                            Подписаться
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-block">
+                <div class="footer-title">
+                    О проекте
+                </div>
+                <p class="footer-text">
+                    Информационный портал Wahastore wiki
+                </p>
+                <p class="footer-text">
+                    Выполнил учащийся 2 курса,
+                    гр 281079 Зубарев Валентин
+                </p>
+            </div>
+            <div class="footer-block">
+                <div class="footer-title">
+                    Контакты
+                </div>
+                <div class="footer-icon-link">
+                    <div class="footer-two-icon">
+                        <a href="#" class="icon-link">
+                            <svg class="footer-icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V22H22V0H0ZM16.4927 12.1714C16.9977 12.6641 17.5317 13.128 17.985 13.6727C18.1853 13.9134 18.3747 14.1617 18.5191 14.4406C18.7241 14.8401 18.5383 15.2779 18.1814 15.302L15.9632 15.3011C15.3907 15.3481 14.9345 15.1173 14.5497 14.7256C14.2437 14.4137 13.9577 14.0799 13.6623 13.7574C13.5421 13.6247 13.415 13.5005 13.264 13.4015C12.9609 13.2051 12.6981 13.2647 12.5249 13.5803C12.3488 13.9018 12.3074 14.2588 12.2911 14.6168C12.267 15.1393 12.1093 15.276 11.5849 15.3011C10.4627 15.3531 9.3985 15.1826 8.41014 14.6177C7.5373 14.1194 6.86182 13.4148 6.27377 12.6181C5.12774 11.0648 4.25001 9.35962 3.46193 7.60533C3.2838 7.20996 3.41392 6.99808 3.84869 6.99044C4.57349 6.97613 5.29799 6.97787 6.02176 6.98947C6.31618 6.9944 6.51152 7.16267 6.62413 7.44079C7.01582 8.40328 7.49494 9.31925 8.09634 10.1691C8.25721 10.3953 8.42078 10.6204 8.65258 10.7801C8.90952 10.9572 9.10587 10.8993 9.22704 10.6116C9.30416 10.4288 9.33791 10.2344 9.35416 10.0391C9.41179 9.37021 9.41871 8.70064 9.31944 8.03377C9.25784 7.61693 9.02213 7.34742 8.6065 7.26861C8.39462 7.22818 8.42639 7.15034 8.52841 7.02888C8.7075 6.82024 8.87601 6.69013 9.20983 6.69013H11.7167C12.1121 6.76725 12.2008 6.94533 12.2545 7.34273L12.2565 10.1287C12.2518 10.2827 12.3336 10.7387 12.6097 10.8397C12.8309 10.9128 12.9783 10.7347 13.111 10.5943C13.7114 9.9572 14.1398 9.20388 14.5226 8.4244C14.6921 8.08174 14.8384 7.72577 14.9808 7.36952C15.0858 7.1059 15.2493 6.97608 15.5467 6.98077L17.9602 6.98372C18.0314 6.98372 18.1046 6.98372 18.1748 6.99528C18.5808 7.06548 18.6924 7.24066 18.5663 7.63801C18.3692 8.26054 17.9831 8.78032 17.607 9.30087C17.2037 9.85813 16.7745 10.3959 16.3742 10.9561C16.0086 11.4691 16.0374 11.727 16.4927 12.1714Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="icon-link1">
+                            <svg class="footer-icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V22H22V0H0ZM14.554 6.05445H12.8345C12.4939 6.05445 12.1501 6.40645 12.1501 6.66832V8.42175H14.5507C14.454 9.76626 14.2556 10.9957 14.2556 10.9957H12.1379V18.6154H8.98214V10.9949H7.44596V8.43088H8.98214V6.33455C8.98214 5.95122 8.90449 3.38466 12.2155 3.38466H14.5541V6.05445H14.554Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-two-icon">
+                        <a href="#" class="icon-link">
+                            <svg class="footer-icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM14.6445 5.24547H7.35554C6.19213 5.24547 5.24547 6.19213 5.24547 7.35554V14.6445C5.24547 15.8079 6.19213 16.7545 7.35554 16.7545H14.6445C15.8079 16.7545 16.7545 15.8079 16.7545 14.6445V7.35554C16.7545 6.19213 15.8079 5.24547 14.6445 5.24547ZM10.9998 14.7888C8.91093 14.7888 7.2112 13.0891 7.2112 10.9998C7.2112 8.91093 8.91093 7.2112 10.9998 7.2112C13.0891 7.2112 14.7888 8.91093 14.7888 10.9998C14.7888 13.0891 13.0891 14.7888 10.9998 14.7888ZM14.9105 7.99469C14.4161 7.99469 14.014 7.59257 14.014 7.09824C14.014 6.60391 14.4161 6.20179 14.9105 6.20179C15.4048 6.20179 15.8069 6.60391 15.8069 7.09824C15.8069 7.59257 15.4048 7.99469 14.9105 7.99469ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM14.6445 5.24547H7.35554C6.19213 5.24547 5.24547 6.19213 5.24547 7.35554V14.6445C5.24547 15.8079 6.19213 16.7545 7.35554 16.7545H14.6445C15.8079 16.7545 16.7545 15.8079 16.7545 14.6445V7.35554C16.7545 6.19213 15.8079 5.24547 14.6445 5.24547ZM10.9998 14.7888C8.91093 14.7888 7.2112 13.0891 7.2112 10.9998C7.2112 8.91093 8.91093 7.2112 10.9998 7.2112C13.0891 7.2112 14.7888 8.91093 14.7888 10.9998C14.7888 13.0891 13.0891 14.7888 10.9998 14.7888ZM14.9105 7.99469C14.4161 7.99469 14.014 7.59257 14.014 7.09824C14.014 6.60391 14.4161 6.20179 14.9105 6.20179C15.4048 6.20179 15.8069 6.60391 15.8069 7.09824C15.8069 7.59257 15.4048 7.99469 14.9105 7.99469ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM0 0V22H22V0H0ZM18.3553 14.6445C18.3553 16.6908 16.6908 18.3553 14.6445 18.3553H7.35554C5.3092 18.3553 3.6447 16.6908 3.6447 14.6445V7.35554C3.6447 5.3092 5.3092 3.6447 7.35554 3.6447H14.6445C16.6908 3.6447 18.3553 5.3092 18.3553 7.35554V14.6445ZM14.6445 5.24547H7.35554C6.19213 5.24547 5.24547 6.19213 5.24547 7.35554V14.6445C5.24547 15.8079 6.19213 16.7545 7.35554 16.7545H14.6445C15.8079 16.7545 16.7545 15.8079 16.7545 14.6445V7.35554C16.7545 6.19213 15.8079 5.24547 14.6445 5.24547ZM10.9998 14.7888C8.91093 14.7888 7.2112 13.0891 7.2112 10.9998C7.2112 8.91093 8.91093 7.2112 10.9998 7.2112C13.0891 7.2112 14.7888 8.91093 14.7888 10.9998C14.7888 13.0891 13.0891 14.7888 10.9998 14.7888ZM14.9105 7.99469C14.4161 7.99469 14.014 7.59257 14.014 7.09824C14.014 6.60391 14.4161 6.20179 14.9105 6.20179C15.4048 6.20179 15.8069 6.60391 15.8069 7.09824C15.8069 7.59257 15.4048 7.99469 14.9105 7.99469ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM14.6445 5.24547H7.35554C6.19213 5.24547 5.24547 6.19213 5.24547 7.35554V14.6445C5.24547 15.8079 6.19213 16.7545 7.35554 16.7545H14.6445C15.8079 16.7545 16.7545 15.8079 16.7545 14.6445V7.35554C16.7545 6.19213 15.8079 5.24547 14.6445 5.24547ZM10.9998 14.7888C8.91093 14.7888 7.2112 13.0891 7.2112 10.9998C7.2112 8.91093 8.91093 7.2112 10.9998 7.2112C13.0891 7.2112 14.7888 8.91093 14.7888 10.9998C14.7888 13.0891 13.0891 14.7888 10.9998 14.7888ZM14.9105 7.99469C14.4161 7.99469 14.014 7.59257 14.014 7.09824C14.014 6.60391 14.4161 6.20179 14.9105 6.20179C15.4048 6.20179 15.8069 6.60391 15.8069 7.09824C15.8069 7.59257 15.4048 7.99469 14.9105 7.99469ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246ZM14.6445 5.24547H7.35554C6.19213 5.24547 5.24547 6.19213 5.24547 7.35554V14.6445C5.24547 15.8079 6.19213 16.7545 7.35554 16.7545H14.6445C15.8079 16.7545 16.7545 15.8079 16.7545 14.6445V7.35554C16.7545 6.19213 15.8079 5.24547 14.6445 5.24547ZM10.9998 14.7888C8.91093 14.7888 7.2112 13.0891 7.2112 10.9998C7.2112 8.91093 8.91093 7.2112 10.9998 7.2112C13.0891 7.2112 14.7888 8.91093 14.7888 10.9998C14.7888 13.0891 13.0891 14.7888 10.9998 14.7888ZM14.9105 7.99469C14.4161 7.99469 14.014 7.59257 14.014 7.09824C14.014 6.60391 14.4161 6.20179 14.9105 6.20179C15.4048 6.20179 15.8069 6.60391 15.8069 7.09824C15.8069 7.59257 15.4048 7.99469 14.9105 7.99469ZM10.9998 8.81246C9.79387 8.81246 8.81197 9.79387 8.81197 10.9998C8.81197 12.2061 9.79387 13.188 10.9998 13.188C12.2061 13.188 13.1875 12.2061 13.1875 10.9998C13.1875 9.79387 12.2061 8.81246 10.9998 8.81246Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="icon-link1">
+                            <svg class="footer-icon" width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0V22H22V0H0ZM14.0826 13.4561C12.404 14.323 11.0417 13.8964 10.684 13.7176C10.3263 13.5387 10.0236 13.1121 10.0236 13.1121C10.0236 13.1121 9.61078 14.8871 9.28051 15.8091C8.95024 16.731 7.87702 17.9693 7.87702 17.9693C7.87702 17.9693 7.53306 16.5796 7.78074 15.066C8.02842 13.5525 8.82649 10.2915 8.82649 10.2915C8.82649 10.2915 8.34491 9.32829 8.7439 8.37882C9.14289 7.42943 9.8309 6.9891 10.739 7.33306C11.6472 7.67702 11.2068 8.97046 11.1106 9.28695C11.0143 9.60344 10.3813 11.2271 10.5739 11.7912C10.7666 12.3554 12.1013 13.5525 13.7111 11.3509C15.321 9.14933 14.43 6.78267 13.0782 5.91579C12.1123 5.29649 9.7649 4.61791 8.05598 6.54877C5.937 8.94299 7.8083 11.0069 7.8083 11.0069L7.31294 12.1627C7.31294 12.1627 5.30402 11.7638 5.48289 8.81915C5.66176 5.87454 8.45497 4.01702 11.0693 4.0308C13.6836 4.04458 15.4724 5.44808 16.2842 7.52571C17.0961 9.60344 15.7613 12.5893 14.0826 13.4561Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="lightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
