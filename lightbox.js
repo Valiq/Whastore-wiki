@@ -1,17 +1,3 @@
-/*!
- * Lightbox v2.11.3
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- *
- * @preserve
- */
-
 // Uses Node, AMD or browser globals to create a module.
 function focusMailingBox(event) {
   event.preventDefault();
